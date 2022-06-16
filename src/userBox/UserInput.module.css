@@ -1,0 +1,68 @@
+.formControl {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 300px;
+    min-width: 300px;
+    height: 200px;
+    margin: 0.5rem 0;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: purple;
+    box-shadow: 1px 1px;
+  }
+
+  .formControl div {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+  }
+  
+  .formControl label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .formControl input {
+    width: 60%;
+    max-width: 130px;
+    color: black;
+    border: 1px solid #ccc;
+    font: inherit;
+    line-height: 1.5rem;
+    padding: 0 0.25rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+  }
+
+  .formControl button {
+    width: 30%;
+    max-width: 130px;
+    padding: 5px;    
+    margin: 0 auto;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    left: 50%;
+    box-shadow: 1px 1px;
+  }
+  
+  /* .form-control input:focus {
+    outline: none;
+    background: #fad0ec;
+    border-color: #8b005d;
+  }
+  
+  .form-control.invalid input {
+    border-color: red;
+    background: #ffd7d7;
+  }
+  
+  .form-control.invalid label {
+    color: red;
+  } */
